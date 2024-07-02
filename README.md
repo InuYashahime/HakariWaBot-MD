@@ -12,6 +12,9 @@
 
 [![Click Aquí](https://img.shields.io/badge/Grupo-Emilia-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS)
 
+> [!WARNING]
+> este bot tiene problemas en `$ ~ yarn` para instalar en termux, se solucionará esto pronto.
+
 ⁖🩵꙰  **`INSTALACION MANUAL POR TERMUX`** ⁖🩵꙰
 
 [`🏷 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
