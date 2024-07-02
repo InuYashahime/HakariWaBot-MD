@@ -2,7 +2,7 @@
 
 ## **🤍 Emilia Re: Zero - MD**
 
-# ![logo](https://telegra.ph/file/3c09f2f5d04966069da58.jpg)
+![logo](https://telegra.ph/file/3c09f2f5d04966069da58.jpg)
 
 *DIFRUTA DE ESTE QUERIDO BOT!! 🤍*
 
