@@ -1,7 +1,4 @@
-> 🚩 Aún no se ha actualizado a la versión actual.
-
-
-> 🚩 Cuando tenga tiempo actualizaré este bot a la nueva versión. 
+> 🚩 Aún no se ha actualizado a la versión actual, Cuando tenga tiempo actualizaré este bot a la nueva versión. 
 ## **`Hakari WaBot - MD ✨️🤍`**
 
 ![logo](https://telegra.ph/file/3e9ea97ffd9261ffae73f.jpg)
