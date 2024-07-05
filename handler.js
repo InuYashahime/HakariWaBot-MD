@@ -48,7 +48,7 @@ m = smsg(this, m) || m
 if (!m)
 return
 m.exp = 0
-m.limit = false
+m.estrellas = false
 m.money = false
 try {
 // TODO: use loop to insert data instead of this
@@ -66,7 +66,7 @@ if (!('premium' in user)) user.premium = false
 if (!('muto' in user)) user.muto = false
 if (!isNumber(user.joincount)) user.joincount = 1
 if (!isNumber(user.money)) user.money = 150
-if (!isNumber(user.limit)) user.limit = 15         
+if (!isNumber(user.estrellas)) user.estrellas = 15         
 if (!('registered' in user)) user.registered = false
 
 if (!user.registered) {
@@ -118,7 +118,7 @@ lastduel: 0,
 lastpago: 0,
 lastrob: 0,
 level: 0,
-limit: 20,
+estrellas: 20,
 money: 100,
 muto: false,
 premium: false,
@@ -379,8 +379,9 @@ typeof plugin.command === 'string' ? // String?
 plugin.command === command :
 false
 
-if (!isAccept)
+if (!isAccept) {
 continue
+}
 m.plugin = name
 if (m.chat in global.db.data.chats || m.sender in global.db.data.users) {
 let chat = global.db.data.chats[m.chat]
@@ -404,8 +405,8 @@ global.db.data.users[m.sender].spam = new Date * 1
 
 let hl = _prefix 
 let adminMode = global.db.data.chats[m.chat].modoadmin
-let exotico = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
-if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && rezero) return   
+let wabot = `${plugins.botAdmin || plugins.admin || plugins.group || plugins || noPrefix || hl ||  m.text.slice(0, 1) == hl || plugins.command}`
+if (adminMode && !isOwner && !isROwner && m.isGroup && !isAdmin && wabot) return   
 if (plugin.rowner && plugin.owner && !(isROwner || isOwner)) { //número bot owner
 fail('owner', m, this)
 continue
@@ -451,13 +452,13 @@ if (xp > 2000)
 m.reply('Exp limit') 
 else               
 if (!isPrems && plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-conn.reply(m.chat, `❮💰❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗬𝗼𝘀𝗵𝗶𝗖𝗼𝗶𝗻𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.`, m, rcanal)       
+conn.reply(m.chat, `❮💰❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗕𝗼𝘁𝗖𝗼𝗶𝗻𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.`, m, rcanal)       
 continue     
 }
 
 m.exp += xp
-if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-conn.reply(m.chat, `❮🪙❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲 𝗖𝗲𝗻𝘁𝗮𝘃𝗼𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼. 𝗣𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗺𝗮𝘀 𝗖𝗲𝗻𝘁𝗮𝘃𝗼𝘀, 𝘂𝘀𝗲 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.\n\n• 𝗣𝗼𝗿 𝗘𝗷𝗲𝗺𝗽𝗹𝗼:\n\n*${usedPrefix}buyall*\n*${usedPrefix}buy*`, m, rcanal) 
+if (!isPrems && plugin.estrellas && global.db.data.users[m.sender].estrellas < plugin.estrellas * 1) {
+conn.reply(m.chat, `❮🌟❯ 𝗡𝗼 𝘁𝗶𝗲𝗻𝗲𝘀 𝘀𝘂𝗳𝗶𝗰𝗶𝗲𝗻𝘁𝗲𝘀 𝗘𝘀𝘁𝗿𝗲𝗹𝗹𝗮𝘀 𝗽𝗮𝗿𝗮 𝘂𝘀𝗮𝗿 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼. 𝗣𝗮𝗿𝗮 𝗰𝗼𝗺𝗽𝗿𝗮𝗿 𝗺𝗮𝘀 𝗘𝘀𝘁𝗿𝗲𝗹𝗹𝗮𝘀, 𝘂𝘀𝗲 𝗲𝘀𝘁𝗲 𝗰𝗼𝗺𝗮𝗻𝗱𝗼.\n\n• 𝗣𝗼𝗿 𝗘𝗷𝗲𝗺𝗽𝗹𝗼:\n\n*${usedPrefix}buyall*\n*${usedPrefix}buy*`, m, rcanal) 
 continue
 }
 
@@ -492,7 +493,7 @@ __filename
 try {
 await plugin.call(this, m, extra)
 if (!isPrems)
-m.limit = m.limit || plugin.limit || false
+m.estrellas = m.estrellas || plugin.estrellas || false
 m.money = m.money || plugin.money || false
 } catch (e) {
 // Error occured
@@ -517,8 +518,8 @@ await plugin.after.call(this, m, extra)
 } catch (e) {
 console.error(e)
 }}
-if (m.limit)
-conn.reply(m.chat, `Utilizaste *${+m.limit}* 🪙`, m, rcanal)
+if (m.estrellas)
+conn.reply(m.chat, `Utilizaste *${+m.estrellas}* 🌟`, m, rcanal)
 }
 if (m.money)
 conn.reply(m.chat, `Utilizaste *${+m.money}* 💰`, m, rcanal)
@@ -541,7 +542,7 @@ await conn.sendMessage(m.chat, { delete: { remoteJid: m.chat, fromMe: false, id:
 }
 if (m.sender && (user = global.db.data.users[m.sender])) {
 user.exp += m.exp
-user.limit -= m.limit * 1
+user.estrellas -= m.estrellas * 1
 user.money -= m.money * 1
 }
 
@@ -580,7 +581,7 @@ let settingsREAD = global.db.data.settings[this.user.jid] || {}
 if (opts['autoread']) await this.readMessages([m.key])
 if (settingsREAD.autoread2) await this.readMessages([m.key])  
 
-if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|but|ify|emilia|zero|a|s)/gi)) {
+if (db.data.chats[m.chat].reaction && m.text.match(/(ción|dad|aje|oso|izar|mente|pero|tion|age|ous|ate|and|but|ify|luffy|lufy|a|s)/gi)) {
 let emot = pickRandom(["🤍", "🐶", "☁️", "✨️", "💖", "💥", "💫", "💌", "💭", "👑"])
 if (!m.fromMe) return this.sendMessage(m.chat, { react: { text: emot, key: m.key }})
 }
@@ -607,7 +608,7 @@ case 'remove':
 if (chat.welcome) {
 let groupMetadata = await this.groupMetadata(id) || (conn.chats[id] || {}).metadata
 for (let user of participants) {
-let pp = global.menuImgs1
+let pp = global.icons
 try {
 pp = await this.profilePictureUrl(user, 'image')
 } catch (e) {
@@ -615,8 +616,8 @@ pp = await this.profilePictureUrl(user, 'image')
 let apii = await this.getFile(pp)                                      
 const botTt2 = groupMetadata.participants.find(u => this.decodeJid(u.id) == this.user.jid) || {} 
 const isBotAdminNn = botTt2?.admin === "admin" || false
-text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '𝗘𝗺𝗶𝗹𝗶𝗮 𝗥𝗲:𝘇𝗲𝗿𝗼 - 𝗠𝗗\n\n• 𝗚𝗿𝘂𝗽𝗼 𝘀𝗶𝗻 𝗱𝗲𝘀𝗰𝗿𝗶𝗽𝗰𝗶𝗼𝗻.') :
-(chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0])
+text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'Welcome, @user!').replace('@date', global.botdate).replace('@time', global.bottime).replace('@readMore', global.readMore).replace('@subject', await this.getName(id)).replace('@desc', groupMetadata.desc?.toString() || '*⚠️ ESTE GRUPO NO TIENE DESCRIPCIÓN ⚠️*') :
+(chat.sBye || this.bye || conn.bye || 'Bye, @user!')).replace('@user', '@' + user.split('@')[0]).replace('@date', global.botdate).replace('@time', global.bottime)
 
 if (chat.antifake && isBotAdminNn && action === 'add') {
 const prefijosPredeterminados = [1, 2, 4, 6, 7, 8, 9] // Puedes editar que usuarios deseas que se eliminen si empieza por algunos de los números
@@ -642,19 +643,7 @@ if (responseb[0].status === "404") return
 }}
 
 let fkontak2 = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status@broadcast", "fromMe": false, "id": "Halo" }, "message": { "contactMessage": { "vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=${user.split('@')[0]}:${user.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD` }}, "participant": "0@s.whatsapp.net" }      
-this.sendMessage(id, { text: text, 
-contextInfo:{
-forwardingScore: 9999999,
-isForwarded: true, 
-mentionedJid:[user],
-"externalAdReply": {
-"showAdAttribution": true,
-"renderLargerThumbnail": true,
-"thumbnail": apii.data, 
-"title": [wm, packname, botname].getRandom(),
-"containsAutoReply": true,
-"mediaType": 1, 
-sourceUrl: redes }}}, { quoted: fkontak2 })
+this.sendMessage(id, { text: text, contextInfo:{ mentionedJid:[user], "externalAdReply": {"showAdAttribution": true, "containsAutoReply": true, "title": packname, "body": `${dev}`, "previewType": "PHOTO", "thumbnailUrl": ``, "thumbnail": apii.data, "sourceUrl": yt}}})
 apii.data = ''
 //this.sendFile(id, apii.data, 'pp.jpg', text, null, false, { mentions: [user] }, { quoted: fkontak2 })
 }}}
@@ -742,13 +731,15 @@ botAdmin: '🤍 *!Para Poder Utilizar Este Comando Es Necesario Que El Bot Sea A
 unreg: '🤍 *¡Para Continuar Con Esta Función Es Necesario Registrarse!*\n\n!reg nombre.edad\n\n*Uso Correcto* : !reg Diego.18',
 restrict: '💌 *¡Esta Función Fué Deshabilitado Por Mi Desarrollador!*',
 }[type];
-if (msg) return conn.sendMessage(m.chat, { text: msg, contextInfo: { mentionedJid: [m.sender], forwardingScore: 9999, isForwarded: true, externalAdReply: { title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + nombre, thumbnail: icons, sourceUrl: channel, mediaType: 1}}}, { quoted: m }).then(_ => m.react('✖️'))}
-
+if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}
 const file = global.__filename(import.meta.url, true);
+
+// NO TOCAR
 watchFile(file, async () => {
 unwatchFile(file);
 console.log(chalk.green('Actualizando "handler.js"'));
 if (global.reloadHandler) console.log(await global.reloadHandler());
+
 if (global.conns && global.conns.length > 0 ) {
 const users = [...new Set([...global.conns.filter((conn) => conn.user && conn.ws.socket && conn.ws.socket.readyState !== ws.CLOSED).map((conn) => conn)])];
 for (const userr of users) {
