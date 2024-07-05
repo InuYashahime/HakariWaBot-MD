@@ -6,13 +6,17 @@
 
 [`🏷 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 
+```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
-```bash
 > termux-setup-storage
+
 > apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
+
 > git clone https://github.com/OfcDiego/HakariWaBot-MD && cd HakariWaBot-MD
+
 > yarn install && npm install
+
 > npm start
 ```
 
