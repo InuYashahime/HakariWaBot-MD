@@ -23,17 +23,17 @@ global.suittag = ['573012482597']
 global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = '⪛✰ 𝐄𝐦𝐢𝐥𝐢𝐚 𝐑𝐞:𝐳𝐞𝐫𝐨 - 𝐌𝐃 ✰⪜'
+global.packname = '⪛✰ 𝐇𝐚𝐤𝐚𝐫𝐢 𝐖𝐚𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
 global.author = 'Oғᴄ.Dɪᴇɢᴏ 👑'
-global.wm = 'ೄྀ ємιℓια яє:zєяσ - м∂ ᭄'
-global.titulowm = '𝙀𝙢𝙞𝙡𝙞𝙖 𝙍𝙚𝙯𝙚𝙧𝙤 - 𝙈𝘿 🌻'
-global.titulowm2 = '𝑂𝑓𝑐 𝐷𝑖𝑒𝑔𝑜'
-global.igfg = '𝑂𝑓𝑖𝑐𝑖𝑎𝑙 𝐷𝑖𝑒𝑔𝑜'
-global.botname = 'Ⓔ︎ Emilia Re:zero - MD'
+global.wm = 'HakariWaBot-MD 💫'
+global.titulowm = 'Hakari WaBot ✨️'
+global.titulowm2 = 'Ofc.Diego'
+global.igfg = '𝙾𝙵𝙲.𝙳𝙸𝙴𝙶𝙾'
+global.botname = 'Hᴀᴋᴀʀɪ WᴀBᴏᴛ - MD 💫'
 global.team = '♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎'
 global.dev = '👑 Developed By • ✨ Ofc.Diego'
-global.textbot = '𝙀𝙢𝙞𝙡𝙞𝙖𝙕𝙚𝙧𝙤 : 𝙊𝙛𝙘𝘿𝙞𝙚𝙜𝙤 🌻🐈'
-global.vs = '2.0.0'
+global.textbot = '𝗛𝗮𝗸𝗮𝗿𝗶 : 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼 🌻🐈'
+global.vs = '2.0.1'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
 global.imagen1 = fs.readFileSync('./Menu.jpg')
@@ -41,13 +41,10 @@ global.imagen2 = fs.readFileSync('./Menu2.jpg')
 global.imagen3 = fs.readFileSync('./Menu3.jpg')
 
 //• ↳ ◜𝑳𝑰𝑵𝑲𝑺◞ • 🌿
-global.gp1 = 'https://chat.whatsapp.com/Em1J2VaglHc1fe26YtBDCS' //Grupo Oficial De Emilia
-global.gp2 = 'https://chat.whatsapp.com/KNhfEDUTcyl5RuwR1Is4Hk' //Grupo Oficial Emilia
-global.gp3 = 'https://chat.whatsapp.com/Ksd32KH9zFoDmO1PJt44M7' //GataBot Y Emilia
-global.gp4 = 'https://chat.whatsapp.com/GvJAupaHXTQDNivZIa2l5D' //Alisa Kujou Y Emilia
+global.gp1 = '' //Grupo Oficial De Hakari
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 global.yt = 'https://www.youtube.com/@OfcDiego' //Canal De Youtube
-global.md = 'https://github.com/OfcDiego/EmiliaRezero-MD' //Github Oficial
+global.md = 'https://github.com/OfcDiego/HakariWaBot-MD' //Github Oficial
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
@@ -59,7 +56,7 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nEmilia`;
+global.wm2 = `${dia} ${fecha}\nHakari`;
 global.nomorown = '573012482597';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
@@ -97,7 +94,7 @@ global.keysxteammm = ['29d4b59a4aa687ca', '5LTV57azwaid7dXfz5fzJu', 'cb15ed422c7
 global.keysxteam = keysxteammm[Math.floor(keysxteammm.length * Math.random())];
 global.keysneoxrrr = ['5VC9rvNx', 'cfALv5'];
 global.keysneoxr = keysneoxrrr[Math.floor(keysneoxrrr.length * Math.random())];
-global.lolkeysapi = ['GataDios']; // ['BrunoSobrino_2']
+global.lolkeysapi = ['GataDiosV2']; // ['BrunoSobrino_2']
 global.itsrose = ['4b146102c4d500809da9d1ff'];
 
 global.APIs = {
@@ -144,7 +141,7 @@ global.rpg = {
     string = string.toLowerCase();
     const emot = {
       level: '🧬 Nivel',
-      limit: '🪙 Centavo',
+      estrellas: '🌟 Estrella',
       exp: '⚡ Experiencia',
       bank: '🏦 Banco',
       diamond: '💎 Diamante',
@@ -213,7 +210,7 @@ global.rpg = {
       kambing: '🐐 Cabra',
       kerbau: '🐃 Búfalo',
       lion: '🦁 León',
-      money: '👾 ZeroCoins',
+      money: '👾 BotCoins',
       monyet: '🐒 Mono',
       panda: '🐼 Panda',
       snake: '🐍 Serpiente',
@@ -237,7 +234,7 @@ global.rpgg = { // Solo emojis
     string = string.toLowerCase();
     const emott = {
       level: '🧬',
-      limit: '🪙',
+      estrellas: '🌟',
       exp: '⚡',
       bank: '🏦',
       diamond: '💎+',
@@ -330,15 +327,15 @@ global.rpgshop = { // Tienda
     string = string.toLowerCase();
     const emottt = {
       exp: '⚡ Experiencia',
-      limit: '🪙 Centavo',
+      estrellas: '🌟 Estrella',
       diamond: '💎 Diamante',
       joincount: '💰 Token',
       emerald: '💚 Esmeralda',
       berlian: '♦️ Joya',
       kyubi: '🌀 Magia',
       gold: '👑 Oro',
-      money: '👾 ZeroCoins',
-      tiketcoin: '🎫 Zero Tickers',
+      money: '👾 BotCoins',
+      tiketcoin: '🎫 Hakari Tickers',
       stamina: '✨ Energía',
       potion: '🥤 Poción',
       aqua: '💧 Agua',
@@ -407,7 +404,7 @@ global.rpgshopp = { // Tienda
     string = string.toLowerCase();
     const emotttt = {
       exp: '⚡',
-      limit: '🪙',
+      estrellas: '🌟',
       diamond: '💎+',
       joincount: '💰',
       emerald: '💚',
