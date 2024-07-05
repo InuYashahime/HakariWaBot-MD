@@ -9,19 +9,11 @@
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ```bash
-termux-setup-storage
-```
-```bash
-apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
-```
-```bash
-git clone https://github.com/OfcDiego/HakariWaBot-MD && cd HakariWaBot-MD
-```
-```bash
-yarn install && npm install
-```
-```bash
-npm start
+> termux-setup-storage
+> apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
+> git clone https://github.com/OfcDiego/HakariWaBot-MD && cd HakariWaBot-MD
+> yarn install && npm install
+> npm start
 ```
 
 ⁖❤️꙰ **`ACTIVAR EN TERMUX EN CASO DE DETENERSE`** ⁖❤️꙰
