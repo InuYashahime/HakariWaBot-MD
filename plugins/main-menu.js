@@ -192,7 +192,7 @@ await conn.sendFile(m.chat, imagen1, 'hakari.jpg', text.trim(), fkontak, null, r
 handler.help = ['menu']
 handler.tags = ['main']
 handler.command = ['menu', 'menú', 'menuall', 'allmenú', 'allmenu', 'menucompleto'] 
-handler.register = true
+//handler.register = true
 
 export default handler
 
