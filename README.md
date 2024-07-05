@@ -62,7 +62,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ### `☄️ AGRADECIMIENTOS`
 <a
-href="https://github.com/elrebelde21"><img src="https://github.com/elrebelde21.png" width="120" height="120" alt="Agradecimientos"/></a>
+href="https://github.com/elrebelde21"><img src="https://telegra.ph/file/3e9ea97ffd9261ffae73f.jpg" width="120" height="120" alt="Agradecimientos"/></a>
 
 ### `👑 CREADOR`
 <a
