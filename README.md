@@ -2,7 +2,7 @@
 
 ## **`Hakari WaBot - MD ✨️🤍`**
 
-![logo](https://telegra.ph/file/83b4d144aa349286364f5.jpg)
+![logo](https://telegra.ph/file/3e9ea97ffd9261ffae73f.jpg)
 
 ⁖🩵꙰  **`INSTALACION MANUAL POR TERMUX`** ⁖🩵꙰
 
