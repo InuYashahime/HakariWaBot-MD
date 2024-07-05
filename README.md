@@ -2,37 +2,40 @@
 
 ![logo](https://telegra.ph/file/ee766bd8f3d370c0bec7a.jpg)
 
-### Instalación manual por termux 🧑🏻‍💻
+⁖🩵꙰  **`INSTALACION MANUAL POR TERMUX`** ⁖🩵꙰
 
 [`🏷 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 
-```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
-> termux-setup-storage
-
-> apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
-
-> git clone https://github.com/OfcDiego/HakariWaBot-MD && cd HakariWaBot-MD
-
-> yarn install && npm install
-
-> npm start
+```bash
+termux-setup-storage
+```
+```bash
+apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
+```
+```bash
+git clone https://github.com/OfcDiego/HakariSession && cd HakariSession
+```
+```bash
+yarn install && npm install
+```
+```bash
+npm start
 ```
 
-### Activar en termux en caso de detenerse ⚡️
-
+⁖❤️꙰ **`ACTIVAR EN TERMUX EN CASO DE DETENERSE`** ⁖❤️꙰
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd HakariWaBot-MD
+> cd HakariSession
 > npm start
 ```
 
-### Obtener otro codigo QR 💫
+⁖💚꙰  **`OBTENER OTRO CODIGO QR`** ⁖💚꙰
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd HakariWaBot-MD
+> cd HakariSession
 > rm -rf HakariSession
 > npm start
 ```
