@@ -1,13 +1,13 @@
 {
-"name": "Emilia Re:zero - MD",
+"name": "Hakari WaBot - MD",
 "website": "https://github.com/OfcDiego",
 "description": "Super Bot WhatsApp",
-"repository": "https://github.com/OfcDiego/EmiliaRezero-MD",
+"repository": "https://github.com/OfcDiego/HakariWaBot-MD",
 "logo": "https://telegra.ph/file/7e8fed70cb176dfc1f04e.jpg",
-"success_url": "https://github.com/OfcDiego/EmiliaRezero-MD",
+"success_url": "https://github.com/OfcDiego/HakariWaBot-MD",
 "keywords": [
 "nodejs", "heroku", "bot", "spanish", "english", "indonesian", "arab", "portuguese", "italian", "french", "whatsapp",
-"termux", "superbot", "multi-device", "md", "official", "javascript", "emilia"],
+"termux", "superbot", "multi-device", "md", "official", "javascript", "wabot"],
 "image": "heroku/nodejs",
 "buildpacks": [
 { "url": "heroku/nodejs" },
