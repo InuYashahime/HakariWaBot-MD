@@ -85,7 +85,8 @@ global.fkontak = { key: { participants:"0@s.whatsapp.net", "remoteJid": "status@
 
 global.estilo = { key: {  fromMe: false, participant: `0@s.whatsapp.net`, ...(false ? { remoteJid: "5219992095479-1625305606@g.us" } : {}) }, message: { orderMessage: { itemCount : -999999, status: 1, surface : 1, message: `${packname}`, orderTitle: 'Bang', thumbnail: icons, sellerJid: '0@s.whatsapp.net'}}}
 
-let icono = ['', ''].getRandom()
+//let icono = ['', ''].getRandom()
+let icono = imagen3
 
 global.rcanal = {
 contextInfo: {
@@ -99,12 +100,10 @@ externalAdReply: {
 showAdAttribution: true,
 title: packname,
 body: '🚩 Hakari WaBot Canal 🐢',
-mediaUrl: null,                                   description: null,                                       previewType: "PHOTO",                                        thumbnailUrl: icons,
+mediaUrl: null,                                   description: null,                                       previewType: "PHOTO",                                        thumbnailUrl: icono,
 sourceUrl: redes,
 mediaType: 1,
 renderLargerThumbnail: false
-},
-},
-}}
+}, }, }}
 
 export default handler
