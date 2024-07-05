@@ -1,4 +1,4 @@
-> 🚩 Aún no se ha actualizado completo.
+> 🚩 Aún no se ha actualizado a la versión actual.
 
 ## **`Hakari WaBot - MD ✨️🤍`**
 
