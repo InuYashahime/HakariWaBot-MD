@@ -2,6 +2,44 @@
 
 ![logo](https://telegra.ph/file/ee766bd8f3d370c0bec7a.jpg)
 
+⁖🩵꙰  **`INSTALACION MANUAL POR TERMUX`** ⁖🩵꙰
+
+[`🏷 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
+
+> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+
+```bash
+termux-setup-storage
+```
+```bash
+apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
+```
+```bash
+git clone https://github.com/OfcDiego/HakariWaBot-MD && cd HakariWaBot-MD
+```
+```bash
+yarn install && npm install
+```
+```bash
+npm start
+```
+
+⁖❤️꙰ **`ACTIVAR EN TERMUX EN CASO DE DETENERSE`** ⁖❤️꙰
+```bash
+ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+> cd 
+> cd HakariWaBot-MD
+> npm start
+```
+
+⁖💚꙰  **`OBTENER OTRO CODIGO QR`** ⁖💚꙰
+```bash
+> ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
+> cd HakariWaBot-MD
+> rm -rf HakariSession
+> npm start
+```
+
 ## <img src="https://i.pinimg.com/originals/73/69/6e/73696e022df7cd5cb3d999c6875361dd.gif" alt="Características" width="42" height="42"> Características
 
 > Bot en creación pronto se agregaran más cosas 
