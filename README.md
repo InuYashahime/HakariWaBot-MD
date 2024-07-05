@@ -2,7 +2,7 @@
 
 ![logo](https://telegra.ph/file/ee766bd8f3d370c0bec7a.jpg)
 
-⁖🩵꙰  **`INSTALACION MANUAL POR TERMUX`** ⁖🩵꙰
+### Instalación manual por termux 🧑🏻‍💻
 
 [`🏷 Instalar Termux Clic Aqui`](https://www.mediafire.com/file/3hsvi3xkpq3a64o/termux_118.apk/file)
 
@@ -20,7 +20,8 @@
 > npm start
 ```
 
-⁖❤️꙰ **`ACTIVAR EN TERMUX EN CASO DE DETENERSE`** ⁖❤️꙰
+### Activar en termux en caso de detenerse ⚡️
+
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
@@ -28,7 +29,7 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > npm start
 ```
 
-⁖💚꙰  **`OBTENER OTRO CODIGO QR`** ⁖💚꙰
+### Obtener otro codigo QR 💫
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd HakariWaBot-MD
