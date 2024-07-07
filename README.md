@@ -1,5 +1,5 @@
 > 🚩 Aún no se ha actualizado a la versión actual, Cuando tenga tiempo actualizaré este bot a la nueva versión. 
-## **`Hoshino WaBot - MD ✨️🤍`**
+### **`Hoshino WaBot - MD ✨️🤍`**
 
 ![logo](https://telegra.ph/file/e593e4d0eca0eb886a50b.jpg)
 
@@ -65,4 +65,4 @@ href="https://github.com/elrebelde21"><img src="https://telegra.ph/file/e593e4d0
 <a
 href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="140" height="140" alt="Diego"/></a>
 
-> Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/HakariWaBot-MD)**.
+> Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/HoshinoWaBot-MD)**.
