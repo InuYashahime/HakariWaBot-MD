@@ -45,7 +45,7 @@ const defaultMenu = {
 *│* ✰ ⚡️ *Bot:* Hoshino WaBot - MD 
 *│* ✰ 🚩 *Modo* Público
 *│* ✰ 📚 *Baileys:* Multi Device
-*│* ✰ ⏱️ *Tiempo Activo:* %muptime
+*│* ✰ ⏱️ *Tiempo Activa:* %muptime
 *│* ✰ 👤 *Usuarios:* %totalreg
 *╰──⬣*
 
