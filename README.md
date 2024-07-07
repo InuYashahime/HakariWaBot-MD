@@ -1,7 +1,7 @@
 > 🚩 Aún no se ha actualizado a la versión actual, Cuando tenga tiempo actualizaré este bot a la nueva versión. 
-## **`Hakari WaBot - MD ✨️🤍`**
+## **`Hoshino WaBot - MD ✨️🤍`**
 
-![logo](https://telegra.ph/file/3e9ea97ffd9261ffae73f.jpg)
+![logo](https://telegra.ph/file/e593e4d0eca0eb886a50b.jpg)
 
 ⁖🩵꙰  **`INSTALACION MANUAL POR TERMUX`** ⁖🩵꙰
 
@@ -16,7 +16,7 @@ termux-setup-storage
 apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 ```bash
-git clone https://github.com/OfcDiego/HakariSession && cd HakariSession
+git clone https://github.com/OfcDiego/HoshinoWaBot-MD && cd HoshinoWaBot-MD
 ```
 ```bash
 yarn install && npm install
@@ -29,15 +29,15 @@ npm start
 ```bash
 ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 > cd 
-> cd HakariSession
+> cd HoshinoWaBot-MD
 > npm start
 ```
 
 ⁖💚꙰  **`OBTENER OTRO CODIGO QR`** ⁖💚꙰
 ```bash
 > ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
-> cd HakariSession
-> rm -rf HakariSession
+> cd HoshinoWaBot-MD
+> rm -rf HoshinoSession
 > npm start
 ```
 
@@ -59,10 +59,10 @@ ESCRIBE LOS SIGUIENTES COMANDOS UNO POR UNO:
 
 ### `☄️ AGRADECIMIENTOS`
 <a
-href="https://github.com/elrebelde21"><img src="https://telegra.ph/file/3e9ea97ffd9261ffae73f.jpg" width="120" height="120" alt="Agradecimientos"/></a>
+href="https://github.com/elrebelde21"><img src="https://telegra.ph/file/e593e4d0eca0eb886a50b.jpg" width="130" height="130" alt="Agradecimientos"/></a>
 
 ### `👑 CREADOR`
 <a
-href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="130" height="130" alt="Diego"/></a>
+href="https://github.com/OfcDiego"><img src="https://github.com/OfcDiego.png" width="140" height="140" alt="Diego"/></a>
 
 > Copyright (c) 2024 **[OfcDiego](https://github.com/OfcDiego/HakariWaBot-MD)**.
