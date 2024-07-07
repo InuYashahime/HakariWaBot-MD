@@ -53,7 +53,7 @@ var canal2 = 'https://whatsapp.com/channel/0029VaXaCa66xCSHugaf773M'
 var grupofb = 'https://www.facebook.com/groups/872989990425789/?ref=share&mibextid=NSMWBT' 
 var git = 'https://github.com/OfcDiego' 
 var youtube = 'https://www.youtube.com/@OfcDiego' 
-var github = 'https://github.com/OfcDiego/HakariWaBot-MD' 
+var github = 'https://github.com/OfcDiego/HoshinoWaBot-MD' 
 var facebook = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' 
 
 global.redes = [canal, canal2, grupofb, git, youtube, github, facebook].getRandom()
@@ -93,12 +93,12 @@ isForwarded: true,
 forwardedNewsletterMessageInfo: {
 newsletterJid: "120363263466636910@newsletter",
 serverMessageId: 100,
-newsletterName: 'Hakari WaBot - Channel 🚩',
+newsletterName: 'Hoshino WaBot - Channel 🚩',
 },
 externalAdReply: {
 showAdAttribution: true,
 title: packname,
-body: '🚩 Hakari WaBot Canal 🐢',
+body: '🚩 Hoshino WaBot Canal 🐢',
 mediaUrl: null,                                   description: null,                                       previewType: "PHOTO",                                        thumbnailUrl: icono,
 sourceUrl: redes,
 mediaType: 1,
