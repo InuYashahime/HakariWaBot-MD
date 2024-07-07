@@ -6,7 +6,7 @@ ${gp1}
 
  *◜🌸 CANAL OFICIAL 🌸◞*
 
-*HakariWaBot-MD ✨️🤍*
+*HoshinoWaBot-MD ✨️🤍*
 ${channel}`
 m.react('🤍') 
 
