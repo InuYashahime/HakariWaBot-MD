@@ -23,16 +23,16 @@ global.suittag = ['573012482597']
 global.prems = []
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packname = '⪛✰ 𝐇𝐚𝐤𝐚𝐫𝐢 𝐖𝐚𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
+global.packname = '⪛✰ 𝐇𝐨𝐬𝐡𝐢𝐧𝐨 𝐖𝐚𝐁𝐨𝐭 - 𝐌𝐃 ✰⪜'
 global.author = 'Oғᴄ.Dɪᴇɢᴏ 👑'
-global.wm = 'HakariWaBot-MD 💫'
-global.titulowm = 'Hakari WaBot ✨️'
+global.wm = 'HoshinoWaBot-MD 💫'
+global.titulowm = 'Hoshino WaBot ✨️'
 global.titulowm2 = 'Ofc.Diego'
 global.igfg = '𝙾𝙵𝙲.𝙳𝙸𝙴𝙶𝙾'
-global.botname = 'Hᴀᴋᴀʀɪ WᴀBᴏᴛ - MD 💫'
+global.botname = 'Hɪsʜɪɴᴏ WᴀBᴏᴛ - MD 💫'
 global.team = '♋︎ 𝐃𝙴𝚅 𝐖𝙾𝚁𝙻𝙳 - 𝐓𝙴𝙰𝙼 ♋︎'
 global.dev = '👑 Developed By • ✨ Ofc.Diego'
-global.textbot = '𝗛𝗮𝗸𝗮𝗿𝗶 : 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼 🌻🐈'
+global.textbot = '𝗛𝗼𝘀𝗵𝗶𝗻𝗼𝗪𝗮𝗕𝗼𝘁 : 𝗢𝗳𝗰𝗗𝗶𝗲𝗴𝗼 🌻🐈'
 global.vs = '2.0.1'
 
 //• ↳ ◜𝑰𝑴𝑨́𝑮𝑬𝑵𝑬𝑺◞ • 🌇
@@ -44,7 +44,7 @@ global.imagen3 = fs.readFileSync('./Menu3.jpg')
 global.gp1 = '' //Grupo Oficial De Hakari
 global.channel = 'https://whatsapp.com/channel/0029VaQD7LAJP216tu9liI2A' //Canal Oficial
 global.yt = 'https://www.youtube.com/@OfcDiego' //Canal De Youtube
-global.md = 'https://github.com/OfcDiego/HakariWaBot-MD' //Github Oficial
+global.md = 'https://github.com/OfcDiego/HoshinoWaBot-MD' //Github Oficial
 global.fb = 'https://www.facebook.com/diegosaroficial?mibextid=ZbWKwL' //Facebook Del Propietario
 
 //• ↳ ◜𝑻𝑰𝑬𝑴𝑷𝑶◞ • 🕒
