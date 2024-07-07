@@ -31,7 +31,7 @@ let tags = {
 const defaultMenu = {
   before: `*꒷꒦꒷꒷꒦꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷꒷꒦꒷꒷꒦꒷꒷꒦꒷꒦꒷꒦꒷*
 
-“ Hola *%name*, mi nombre es *HakariWaBot-MD*, Cómo se encuentra el día de hoy?  ”
+“ Hola *%name*, mi nombre es *HoshinoWaBot*, Cómo se encuentra el día de hoy?  ”
 
 *╭──⬣「 Info User 」⬣*
 *│* ✰ 💌 *Cliente:* %name
@@ -42,11 +42,15 @@ const defaultMenu = {
 *╰──⬣*
 
 *╭──⬣「 Info Bot 」⬣*
-*│* ✰ ⚡️ *Bot:* Hakari WaBot - MD
+*│* ✰ ⚡️ *Bot:* Hoshino WaBot - MD 
 *│* ✰ 🚩 *Modo* Público
 *│* ✰ 📚 *Baileys:* Multi Device
-*│* ✰ ⏱️ *Tiempo Activa:* %muptime
+*│* ✰ ⏱️ *Tiempo Activo:* %muptime
 *│* ✰ 👤 *Usuarios:* %totalreg
+*╰──⬣*
+
+*╭──⬣「 SubBot / Bot Ofc 」⬣*
+*│* ✰ %botofc 
 *╰──⬣*
 
 %readmore
@@ -145,6 +149,7 @@ npmdesc: _package.description,
 version: _package.version,
 exp: exp - min,
 maxexp: xp,
+botofc: (conn.user.jid == global.conn.user.jid ? '🚩 𝙴𝚂𝚃𝙴 𝙴𝚂 𝙴𝙻 𝙱𝙾𝚃 𝙾𝙵𝙲' : `🚩 𝚂𝚄𝙱-𝙱𝙾𝚃 𝙳𝙴: Wa.me/${global.conn.user.jid.split`@`[0]}`), 
 totalexp: exp,
 xp4levelup: max - exp,
 github: _package.homepage ? _package.homepage.url || _package.homepage : '[unknown github url]',
@@ -170,7 +175,7 @@ const pp = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://telegr
 
 // await conn.reply(m.chat, '*ꪹ͜𓂃͡𝗖𝗮𝗿𝗴𝗮𝗻𝗱𝗼 𝗘𝗹 𝗠𝗲𝗻𝘂 𝗗𝗲𝗹 𝗕𝗼𝘁...𓏲੭*', fkontak, { contextInfo:{ forwardingScore: 2022, isForwarded: true, externalAdReply: {title: packname, body: 'ꪶໍٜ߭۫ިׅ࣪۬߭ׄ🥷ꫂꥈ Hola! ' + name, sourceUrl: redes, thumbnail: icons }}})
 
-m.react('🚩') 
+m.react('🌸') 
 
 /* await conn.sendMessage(m.chat, { video: gif, gifPlayback: true, caption: text.trim(), mentions: [m.sender], contextInfo: {
 mentionedJid: await conn.parseMention(text),
@@ -182,7 +187,7 @@ newsletterName: packname,
 serverMessageId: -1
 }}}, { quoted: fkontak }) */
 
-await conn.sendFile(m.chat, imagen1, 'hakari.jpg', text.trim(), fkontak, null, rcanal)
+await conn.sendFile(m.chat, imagen1, 'hoshino.jpg', text.trim(), fkontak, null, rcanal)
 
   } catch (e) {
     conn.reply(m.chat, '🔵 Lo sentimos, el menú tiene un error', m, rcanal, )
